@@ -1,14 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Title</title>
-    <link rel="stylesheet" href="screen.css">
-  </head>
-  <body>
-    <h1>Heading</h1>
-    <script src="index.js"></script>
-  </body>
+    <title>HackerNews Forum</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <table class="header">
+      <!-- table -->
+      <tr>
+        <!-- title+tabs -->
+        <td class="logo"><img src="images/logo.svg" alt="HackerNews Logo"></td>
+        <td class="title"><strong>HackerNews</strong></td>
+          <td class="tabs">
+              <ul>
+                <li><a href="#">new</a><span>|</span></li>
+                  <li><a href="#">past</a><span>|</span></li>
+                  <li><a href="#">comments</a><span>|</span></li>
+                  <li><a href="#">ask</a><span>|</span></li>
+                  <li><a href="#">show</a><span>|</span></li>
+                  <li><a href="#">jobs</a><span>|</span></li>
+                  <li><a href="#">submit</a><span>|</span></li>
+              </ul>
+          </td>
+          <td class="login">
+            <a href="#">login</a>
+          </td>
+      </tr>
+    </table>
+    <main>
+      <!-- posts container -->
+      <table class="posts">
+          <tr>
+            <!-- post -->
+            <td class="post">
+                <div class="post-title">Airfoil (ciechanow.ski)</div>
+                <div class="post-details">
+                    <span class="post-score">1148 points by todsacerdoti 4 hours ago
+                      | hide | 115 comments
+                    </span>
+                </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="post">
+                <div class="post-title">Amazon lobbyists to be banned from European parliament
+                  (uni-europa.org)
+                </div>
+                <div class="post-details">
+                    <span class="post-score">42 points by anigbrowi
+                      | hide | 8 comments
+                    </span>
+                </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="post">
+                <div class="post-title">SuperTux (github.com/supertux)</div>
+                <div class="post-details">
+                    <span class="post-score">61 points by floriangosse 1 hour ago
+                      | hide | 13 comments
+                    </span>
+                </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="post">
+                <div class="post-title">Pure Programming Language (agraef.github.io)</div>
+                <div class="post-details">
+                    <span class="post-score">56 points by tosh 2 hours ago
+                      | hide | 4 comments
+                    </span>
+                </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="post">
+                <div class="post-title">Testing the F-35C Tailhook (the-engi-nerd.github.io)</div>
+                <div class="post-details">
+                    <span class="post-score">239 points by sklargh 5 hours ago
+                      | hide | 101 comments
+                    </span>
+                </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="post">
+                <div class="post-title">Ant Geopolitics (aeon.co)</div>
+                <div class="post-details">
+                    <span class="post-score">196 points by romaintallhurat 7 hours ago
+                      | hide | 61 comments
+                    </span>
+                </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="post">
+                <div class="post-title">Tesorio (YC S15) Is Hiring a Head of Infrastructure (100% Remote) (tesorio.com)</div>
+                <div class="post-details">
+                    <span class="post-score">21 minutes ago | hide</span>
+                </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="post">
+                <div class="post-title">The /unblock API from Browserless: dodging bot detection as a service
+                  (browserless.io)
+                </div>
+                <div class="post-details">
+                    <span class="post-score">75 points by keepamovin 3 hours ago
+                      | hide | 65 comments
+                    </span>
+                </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="post">
+                <div class="post-title">I turned my open-source project into a full-time business
+                  (emailengine.app)
+                </div>
+                <div class="post-details">
+                    <span class="post-score">472 points by andris9 11 hours ago
+                      | hide | 185 comments
+                    </span>
+                </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="post">
+                <div class="post-title">SpaceX discloses cause of Starship anomalies as it clears an FAA hurdle
+                  (arstechnia.com)
+                </div>
+                <div class="post-details">
+                    <span class="post-score">164 points by rbanffy 8 hours ago
+                      | hide | 188 comments
+                    </span>
+                </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="post">
+                <div class="post-title">Blazer: Business intelligence made simple (github.com/ankane)</div>
+                <div class="post-details">
+                    <span class="post-score">124 points by tosh 7 hours ago
+                      | hide | 27 comments
+                    </span>
+                </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="post">
+                <div class="post-title">Apple cancels work on electric car, shifts team to generative AI
+                  (bloomberg.com)
+                </div>
+                <div class="post-details">
+                    <span class="post-score">405 points by coloneltcb 2 hours ago
+                      | hide | 1 comment
+                    </span>
+                </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="post">
+                <div class="post-title">Synthetic data generation for tabular data (github.com/sdv-dev)</div>
+                <div class="post-details">
+                    <span class="post-score">20 points by skadamat 2 hours ago
+                      | hide | 1 comment
+                    </span>
+                </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="post">
+                <div class="post-title">Show HN: Mountaineer - Webapps in Python and React
+                  (github.com/piercefreeman)
+                </div>
+                <div class="post-details">
+                    <span class="post-score">82 points by icyfox 6 hours ago
+                      | hide | 33 comments
+                    </span>
+                </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="post">
+                <div class="post-title">Show HN: I built an open-source data copy tool called ingestr
+                  (github.com/bruin-data)
+                </div>
+                <div class="post-details">
+                    <span class="post-score">78 points by karakanb 6 hours ago
+                      | hide | 27 comments
+                    </span>
+                </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="post">
+                <div class="post-title">Dracula's Biggest Mistake (ayjay.org)</div>
+                <div class="post-details">
+                    <span class="post-score">20 points by chesterfield 2 hours ago
+                      | hide | 24 comments
+                    </span>
+                </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="post">
+                <div class="post-title">Consider the Pawpaw (beltmag.com)</div>
+                <div class="post-details">
+                    <span class="post-score">55 points by PaulHoule 7 hours ago
+                      | hide | 48 comments
+                    </span>
+                </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="post">
+                <div class="post-title">Why time seems to pass faster as we age
+                  (invertedpassion.com)
+                </div>
+                <div class="post-details">
+                    <span class="post-score">215 points by paraschopra 11 hours ago
+                      | hide | 138 comments
+                    </span>
+                </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="post">
+                <div class="post-title">The Second Golden Age of Emacs (batsov.com)</div>
+                <div class="post-details">
+                    <span class="post-score">78 points by karakanb 9 hours ago
+                      | hide | 39 comments
+                    </span>
+                </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="post">
+                <div class="post-title">Social Media First Amendment Cases (lawfaremedia.org)</div>
+                <div class="post-details">
+                    <span class="post-score">55 points by Mjadams 7 hours ago
+                      | hide | 140 comments
+                    </span>
+                </div>
+            </td>
+          </tr>
+      </table>
+    </main>
+  </div>
+</body>
 </html>
